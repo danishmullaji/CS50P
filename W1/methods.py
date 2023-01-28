@@ -1,4 +1,4 @@
-# Ask user for an input
+# Ask user for the input
 name = input("Tell me your full name: ")
 
 # Method: It remove the blank spaces typed by the user
@@ -10,8 +10,11 @@ name = name.capitalize()
 # Method: It capitalize the first letter of all the words mentioned of the input
 name = name.title()
 
-# Method: It split the string into short substring and it can be use separately 
+# Method: It split the string into short substring and it can be use separately
 first, last = name.split()
 
+# Method: It replace the provided value with the assigned value
+name = name.replace(" ", "...")
+
 # Use print function
-print(f"Hello, {first}")
+print(f"Hello, {name}")
