@@ -10,8 +10,8 @@ def main():
 
 
 # Create def even function
-def even(e):
-    if e % 2 == 0:
+def even(number):
+    if number % 2 == 0:
         return True
 
 
