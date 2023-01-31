@@ -2,7 +2,7 @@
 a = int(input("Your value of a: "))
 b = int(input("Your value of b: "))
 
-# Use or function
+# Use != function
 # Use print function
 if a != b:
     print("a and b are not equal")
