@@ -4,3 +4,6 @@
 # use _ for variable initialization if using once
 for _ in range(3):
     print("Meow")
+
+# Pythonic way to solve
+print("Meow\n" * 3, end="")
