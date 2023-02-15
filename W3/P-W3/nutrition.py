@@ -5,9 +5,9 @@ nutrition = {
     "cantaloupe" : "50",
     "grapefruit" : "60",
     "grapes" : "90",
-    "honeydew Melon" : "50",
+    "honeydewmelon" : "50",
     "kiwifruit" : "90",
-    "sweet cherries" : "100"
+    "sweetcherries" : "100"
 }
 
 fruit = input("Item: ").lower().strip()
